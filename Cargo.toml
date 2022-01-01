@@ -3,7 +3,6 @@ name = "rbmenu-tui"
 version = "0.1.0"
 edition = "2021"
 authors = ["DevHyperCoder <devan@devhypercoder.com>"]
-edition = "2018"
 description = "Terminal User Interface for rbmenu"
 readme = "README.md"
 repository = "https://github.com/DevHyperCoder/rbmenu-tui"
