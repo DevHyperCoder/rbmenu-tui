@@ -1,0 +1,45 @@
+# Example theme file 
+# Edit it to your liking
+
+shadow = false
+borders = "simple"
+
+# Background: used to color the application background (around views). Defaults
+# to blue.
+
+# Shadow: used to color shadow around views. Defaults to black.
+
+# View: used to color the background for views. Defaults to white.
+
+# Primary: used to print primary text. Defaults to black.
+
+# Secondary: used to print secondary text. Defaults to blue.
+
+# Tertiary: used to print tertiary text. Defaults to white.
+
+# TitlePrimary: used to print primary titles. Defaults to red.
+
+# TitleSecondary: used to print secondary titles. Defaults to yellow.
+
+# Highlight: used to highlight selected items. Defaults to red.
+
+# HighlightInactive: used to highlight selected but inactive items. Defaults to
+# blue.
+
+# HighlightText: used to print primary text when highlighted Defaults to white.
+
+[colors]
+	background = "#1f2430"
+
+	view       = "#1f2430"
+
+	primary   = "white"
+	secondary = "#bae67e"
+	tertiary  = "#00FF00"
+
+	title_primary   =  "yellow"
+	title_secondary = "#ffff55"
+
+	highlight          = "#FFFF00"
+	highlight_inactive = "#0000FF"
+	highlight_text	   = "black"
