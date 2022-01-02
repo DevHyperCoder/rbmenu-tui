@@ -35,6 +35,13 @@ written in Rust and [Cursive](https://github.com/gyscos/cursive/).
 | k        | Move up                              |
 | e        | Edit bookmark                        |
 
+## Screenshots
+
+![`rbmenu-tui` home](./res/rbmenu-tui-home.png)
+![`rbmenu-tui` help](./res/rbmenu-tui-help.png)
+![`rbmenu-tui` add](./res/rbmenu-tui-add.png)
+![`rbmenu-tui` edit](./res/rbmenu-tui-edit.png)
+
 ## Theme
 
 Create a `$HOME/.local/share/rbmenu/theme.toml` file. If the file is present, `rbmenu-tui` will use it, otherwise defaults to `cursive` default theme.
