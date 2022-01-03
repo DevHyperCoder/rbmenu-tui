@@ -11,7 +11,6 @@ written in Rust and [Cursive](https://github.com/gyscos/cursive/).
 ## Installation
 `rbmenu-tui` is available on [crates.io](https://crates.io/crates/rbmenu-tui)
 
-
 **Arch Linux** : Available on AUR, `rbmenu-tui` for manual compilation from release and `rbmenu-tui-bin` for precompiled binary
 
 **Manual Installation**
@@ -23,7 +22,8 @@ written in Rust and [Cursive](https://github.com/gyscos/cursive/).
 
 ## Keybindings
 
-| key      | description                          |
+| Key      | Description                          |
+|----------|--------------------------------------|
 | ?        | Help                                 |
 | a        | <url> <optional name> Add a new task |
 | d        | :<id> OR <name> Remove a task        |
@@ -44,7 +44,8 @@ written in Rust and [Cursive](https://github.com/gyscos/cursive/).
 
 ## Theme
 
-Create a `$HOME/.local/share/rbmenu/theme.toml` file. If the file is present, `rbmenu-tui` will use it, otherwise defaults to `cursive` default theme.
+Create a `$HOME/.local/share/rbmenu/theme.toml` file. If the file is present,
+`rbmenu-tui` will use it, otherwise defaults to `cursive` default theme.
 
 ## License
 
