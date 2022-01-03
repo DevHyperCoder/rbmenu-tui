@@ -30,7 +30,7 @@ written in Rust and [Cursive](https://github.com/gyscos/cursive/).
 | x        | Remove selected                      |
 | y        | Copy selected                        |
 | l        | View selected                        |
-| <Enter>  | View selected                        |
+| `Enter`  | View selected                        |
 | j        | Move down                            |
 | k        | Move up                              |
 | e        | Edit bookmark                        |
