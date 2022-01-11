@@ -1,6 +1,6 @@
 [package]
 name = "rbmenu-tui"
-version = "0.1.1"
+version = "0.2.0"
 edition = "2021"
 authors = ["DevHyperCoder <devan@devhypercoder.com>"]
 description = "Terminal User Interface for rbmenu"
@@ -12,7 +12,7 @@ license = "GPL-3.0"
 
 [dependencies]
 #rbmenu = {path="../rbmenu"}
-rbmenu = "0.6.1"
+rbmenu = "0.6.3"
 cursive ={version=  "0.16.3", features=["toml"]}
 cursive-aligned-view ={version=  "0.5.0"}
 home = "0.5.3"

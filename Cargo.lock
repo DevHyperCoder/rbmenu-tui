@@ -535,9 +535,9 @@ dependencies = [
 
 [[package]]
 name = "rbmenu"
-version = "0.6.1"
+version = "0.6.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "eb521adacc26da123a00793a684fbfc9ebedd3db8f4199b9121dbaeda7ab2f33"
+checksum = "5c31e26eacb77737a1be4a9b6776abe767faa2ea6f10bbb077fa44738d7a4bc4"
 dependencies = [
  "chrono",
  "colored",
@@ -551,7 +551,7 @@ dependencies = [
 
 [[package]]
 name = "rbmenu-tui"
-version = "0.1.1"
+version = "0.2.0"
 dependencies = [
  "clipboard",
  "cursive",

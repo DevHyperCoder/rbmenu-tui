@@ -258,3 +258,7 @@ pub fn copy_bookmark_link(_c: &Cursive, b: &Bookmark) -> Result<()> {
         Ok(())
     }
 }
+
+pub fn refresh_bookmarks(c: &mut Cursive) -> Result<()> {
+    load_bookmarks(c)
+}

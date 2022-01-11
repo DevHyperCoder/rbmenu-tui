@@ -34,6 +34,7 @@ written in Rust and [Cursive](https://github.com/gyscos/cursive/).
 | j        | Move down                            |
 | k        | Move up                              |
 | e        | Edit bookmark                        |
+| r        | Refresh bookmarks                    |
 
 ## Screenshots
 

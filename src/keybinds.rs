@@ -23,8 +23,8 @@ use cursive::{
 
 use crate::{
     actions::{
-        copy_selected_bookmark, edit_selected_bookmark, remove_selected_bookmark,
-        show_bookmark_on_l_press,
+        copy_selected_bookmark, edit_selected_bookmark, refresh_bookmarks,
+        remove_selected_bookmark, show_bookmark_on_l_press,
     },
     herr, herrcl,
     state::{CurrentState, GlobalState},
@@ -39,6 +39,7 @@ pub fn setup_keybinds(c: &mut Cursive) {
     c.add_global_callback('y', herrcl!(copy_selected_bookmark));
     c.add_global_callback('l', herrcl!(show_bookmark_on_l_press));
     c.add_global_callback('e', herrcl!(edit_selected_bookmark));
+    c.add_global_callback('r', herrcl!(refresh_bookmarks));
     c.add_global_callback('j', go_down);
     c.add_global_callback('k', go_up);
     c.add_global_callback('/', filter_bmark);

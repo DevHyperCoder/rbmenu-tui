@@ -8,3 +8,4 @@ l View selected
 j Move down
 k Move up
 e Edit bookmark
+r Refresh bookmarks
